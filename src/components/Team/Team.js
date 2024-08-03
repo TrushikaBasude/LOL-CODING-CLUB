@@ -237,7 +237,7 @@ function Team() {
 
   return (
     <div className="teams">
-      <h1 className="teams-heading">Team</h1>
+      <h1 className="teams-heading">Teams</h1>
       <h3
         className="teams-sub-heading"
         data-aos="zoom-in"
