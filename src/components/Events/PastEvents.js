@@ -8,16 +8,30 @@ import threejs from "../../images/events/3js.png";
 import flutterworkshop from "../../images/events/flutterworkshop.jpg";
 import powerBI from "../../images/events/LOLPowerBIWorkshop.png";
 import BlockchainBlitz from "../../images/events/BlockchainBlitz.png";
+import GitGitHub from "../../images/events/GitGitHubWorkshop.jpg";
+import CodingContestJuly27 from "../../images/events/CodingContestJuly27.jpg"
 
 import EventCard from "./EventCard";
 
 function PastEvents() {
   const [upcomingEvents] = useState([
     {
+      image: CodingContestJuly27,
+      datetime: "27 July 2024",
+      title: "Coding Contest July 27",
+      action: "View event",
+    },
+    {
+      image: GitGitHub,
+      datetime: "18 July 2024",
+      title: "Git & GitHub Workshop",
+      action: "View event",
+    },
+    {
       image: BlockchainBlitz,
       datetime: "24 Feb 2024",
       title: "Blockchain Blitz Workshop",
-      action: "Register",
+      action: "View event",
     },
     {
       image: powerBI,

@@ -36,6 +36,26 @@ import TrushikaBasude from "../../images/CommitteeMembers2023to2024/TrushikaBasu
 import ShrutiPawar from "../../images/CommitteeMembers2023to2024/ShrutiPawar.jpeg";
 import ArpitaBaraskar from "../../images/CommitteeMembers2023to2024/ArpitaBaraskar.jpg";
 
+import KetakiBidkar from "../../images/CommitteeMembers2024to2025/KetakiBidkar.png";
+import ShubhamBayas from "../../images/CommitteeMembers2024to2025/ShubhamBayas.jpeg";
+import NikhilkumarJain from "../../images/CommitteeMembers2024to2025/NikhilkumarJain.jpeg";
+import YogeshKulkarni from "../../images/CommitteeMembers2024to2025/YogeshKulkarni.jpeg";
+import ChaviMaru from "../../images/CommitteeMembers2024to2025/ChaviMaru.jpeg";
+import AdityaDhepe from "../../images/CommitteeMembers2024to2025/AdityaDhepe.jpeg";
+import MaheshMhanta from "../../images/CommitteeMembers2024to2025/MaheshMhanta.jpeg";
+import ABPeerampalli from "../../images/CommitteeMembers2024to2025/A.B.Peerampalli.jpeg";
+import IrfanShaikh from "../../images/CommitteeMembers2024to2025/IrfanShaikh.jpeg";
+import LakshJain from "../../images/CommitteeMembers2024to2025/LakshJain.jpeg";
+import KomalKalshetti from "../../images/CommitteeMembers2024to2025/KomalKalshetti.jpeg";
+import PriyankaSundalam from "../../images/CommitteeMembers2024to2025/PriyankaSundalam.jpeg";
+import SanikaChougule from "../../images/CommitteeMembers2024to2025/SanikaChougule.jpeg";
+import PriyankaHotkar from "../../images/CommitteeMembers2024to2025/PriyankaHotkar.jpeg";
+import SanjanaMutkiri from "../../images/CommitteeMembers2024to2025/SanjanaMutkiri.jpeg";
+import ArihantGundale from "../../images/CommitteeMembers2024to2025/ArihantGundale.jpeg";
+import PranavJinturkar from "../../images/CommitteeMembers2024to2025/PranavJintorkar.jpeg";
+import ParmitaPatre from "../../images/CommitteeMembers2024to2025/ParmitaPatre.jpeg";
+import GauravKulkarni from "../../images/CommitteeMembers2024to2025/GauravKulkarni.jpg";
+
 function Team() {
   const [FoundingMembers] = useState([
     {
@@ -235,6 +255,171 @@ function Team() {
     },
   ]);
 
+  const [CommitteeMembers2024to2025] = useState([
+    {
+      name: "Ketaki Bidkar",
+      designation: "President",
+      image: KetakiBidkar,
+      linkedin: "https://www.linkedin.com/in/ketaki-bidkar-3b723a233",
+    },
+    {
+      name: "Shubham Bayas",
+      designation: "Vice President",
+      image: ShubhamBayas,
+      linkedin: "https://www.linkedin.com/in/shubham-bayas-489065199",
+    },
+    {
+      name: "Nikhilkumar Jain",
+      designation: "Secretary",
+      image: NikhilkumarJain,
+      linkedin: "https://www.linkedin.com/in/nikhilkumar-jain2411",
+    },
+    {
+      name: "Jahnavi Jian",
+      designation: "Joint Secretary ",
+      image: JahnaviJain,
+      linkedin: "https://www.linkedin.com/in/jahnavi-jain-027681259",
+    },
+    {
+      name: "Abhay Shankur",
+      designation: "Treasurer",
+      image: AbhayShankur,
+      linkedin: "https://www.linkedin.com/in/abhayshankur",
+    },
+    {
+      name: "Shruti Pawar",
+      designation: "Design & Media Manager",
+      image: ShrutiPawar,
+      linkedin: "https://www.linkedin.com/in/shrutipawar99",
+    },
+    {
+      name: "Yogesh Kulkarni",
+      designation: "Technical Head",
+      image: YogeshKulkarni,
+      linkedin: "https://www.linkedin.com/in/contact-yogeshkulkarni21",
+    },
+    {
+      name: "Siddharth Jain",
+      designation: "Director",
+      image: SiddharthJain,
+      linkedin: "https://www.linkedin.com/in/siddharth-zn01",
+    },
+    {
+      name: "Chavi Maru",
+      designation: "Director",
+      image: ChaviMaru,
+      linkedin: "https://www.linkedin.com/in/chavi-maru-ab2552214",
+    },
+    {
+      name: "Arpita Baraskar",
+      designation: "Director",
+      image: ArpitaBaraskar,
+      linkedin: "https://www.linkedin.com/in/arpita-baraskar-966829259",
+    },
+    {
+      name: "Om Jain",
+      designation: "Director",
+      image: OmJain,
+      linkedin: "https://www.linkedin.com/in/om-jain-67a926258",
+    },
+    {
+      name: "Trushika Basude",
+      designation: "Director",
+      image: TrushikaBasude,
+      linkedin: "https://www.linkedin.com/in/trushika-basude-230491261",
+    },
+    {
+      name: "Aditya Dhepe",
+      designation: "Director",
+      image: AdityaDhepe,
+      linkedin: "https://www.linkedin.com/in/aditya-dhepe-35067a259",
+    },
+    {
+      name: "Mahesh Mhanta",
+      designation: "Technical Director",
+      image: MaheshMhanta,
+      linkedin: "https://www.linkedin.com/in/mahesh-mhanta-926187234",
+    },
+    {
+      name: "A.B.Peerampalli",
+      designation: "Technical Director",
+      image: ABPeerampalli,
+      linkedin: "https://www.linkedin.com/in/abdul-basit-peerampalli",
+    },
+    {
+      name: "Irfan Shaikh",
+      designation: "Technical Director",
+      image: IrfanShaikh,
+      linkedin: "https://www.linkedin.com/in/irfan-shaikh-657325212",
+    },
+    {
+      name: "Priyanka Sundalam",
+      designation: "Technical Director",
+      image: PriyankaSundalam,
+      linkedin: "https://www.linkedin.com/in/priyankasundalam",
+    },
+    {
+      name: "Laksh Jain",
+      designation: "Technical Director",
+      image: LakshJain,
+      linkedin: "https://www.linkedin.com/in/laksh-j-566432136",
+    },
+    {
+      name: "Komal Kalshetti",
+      designation: "Technical Director",
+      image: KomalKalshetti,
+      linkedin: "https://www.linkedin.com/in/komal-kalshetti-288832259",
+    },
+    {
+      name: "Priyanka Hotkar",
+      designation: "Student Coordinator",
+      image: PriyankaHotkar,
+      linkedin: "",
+    },
+    {
+      name: "Sanjana Mutkiri",
+      designation: "Student Coordinator",
+      image: SanjanaMutkiri,
+      linkedin: "https://www.linkedin.com/in/sanjana-mutkiri-711681259/",
+    },
+    {
+      name: "Sanika Chougule",
+      designation: "Student Coordinator",
+      image: SanikaChougule,
+      linkedin: "",
+    },
+    {
+      name: "Arihant Gundale",
+      designation: "Student Coordinator",
+      image: ArihantGundale,
+      linkedin: "https://www.linkedin.com/in/arihant-gundale-6b14b9259",
+    },
+    {
+      name: "Aryan Bhandari",
+      designation: "Student Coordinator",
+      image: AryanBhandari,
+      linkedin: "https://www.linkedin.com/in/aryan-bhandari-727947252",
+    },
+    {
+      name: "Parmita Patre",
+      designation: "Student Coordinator",
+      image: ParmitaPatre,
+      linkedin: "https://www.linkedin.com/in/parmita-patre",
+    },
+    {
+      name: "Pranav Jinturkar",
+      designation: "Student Coordinator",
+      image: PranavJinturkar,
+      linkedin: "https://www.linkedin.com/in/pranav-jinturkar",
+    },
+    {
+      name: "Gaurav Kulkarni",
+      designation: "Graphic Designer",
+      image: GauravKulkarni,
+      linkedin: "https://www.linkedin.com/in/gaurav-kulkarni-424a45229",
+    },
+  ]);
+
   return (
     <div className="teams">
       <h1 className="teams-heading">Teams</h1>
@@ -248,6 +433,26 @@ function Team() {
 
       <div id="team" className="teams-content">
         {/* <details open> */}
+
+        <details open>
+          <summary className="section-heading">
+            <span>LOL CODING CLUB COMMITTEE 2024-25</span>
+          </summary>
+
+          <div className="profile-card-container">
+            {CommitteeMembers2024to2025.map((member, index) => (
+              <ProfileCard
+                key={index}
+                image={member.image}
+                name={member.name}
+                designation={member.designation}
+                linkedin={member.linkedin}
+              />
+            ))}
+          </div>
+        </details>
+
+
         <details>
           <summary className="section-heading">
             <span>LOL CODING CLUB COMMITTEE 2023-24</span>

@@ -9,13 +9,22 @@ function EventContainer() {
     <div className="event-container">
       <div className="event-info">
         <h1>UPCOMING EVENT</h1>
+        <h1>Finology Seminar</h1>
+        <p>Dive into the world of Finance</p>
+        <p>Stay tuned for more updates!</p>
+        {/* <p>SATURDAY, 24th FEB 2023</p>
+        <p>Register to Participate!</p> */}
+
+        {/* template
+        <h1>UPCOMING EVENT</h1>
         <h2>Blockchain Blitz Workshop</h2>
         <p>Hands on Session on Blockchain</p>
         <p>Remote Center Hall, WIT Solapur</p>
         <p>SATURDAY, 24th FEB 2023</p>
-        <p>Register to Participate!</p>
+        <p>Register to Participate!</p> */}
+
       </div>
-      <a
+      {/* <a
         className="register-btn"
         href="https://forms.gle/L1X9ByWhNwGPuxB7A"
         target="_black"
@@ -23,7 +32,7 @@ function EventContainer() {
         data-cursor
       >
         Register Now
-      </a>
+      </a> */}
     </div>
   );
 }
