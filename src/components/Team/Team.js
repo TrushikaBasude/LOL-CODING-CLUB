@@ -341,7 +341,7 @@ function Team() {
       linkedin: "https://www.linkedin.com/in/mahesh-mhanta-926187234",
     },
     {
-      name: "A.B.Peerampalli",
+      name: "A.B.Perampalli",
       designation: "Technical Director",
       image: ABPeerampalli,
       linkedin: "https://www.linkedin.com/in/abdul-basit-peerampalli",
