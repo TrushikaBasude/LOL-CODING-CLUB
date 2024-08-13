@@ -45,7 +45,7 @@ function UpcomingEvents() {
               datetime={event.datetime}
               title={event.title}
               action={event.action}
-              registrationform={event.registrationform}
+              link={event.registrationform}
             />
           ))}
         </div>

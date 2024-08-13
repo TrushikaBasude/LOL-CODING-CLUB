@@ -20,48 +20,56 @@ function PastEvents() {
       datetime: "27 July 2024",
       title: "Coding Contest July 27",
       action: "View event",
+      report: "/view/CodingContestReport.pdf"
     },
     {
       image: GitGitHub,
       datetime: "18 July 2024",
       title: "Git & GitHub Workshop",
       action: "View event",
+      report: "/view/CodingContestReport.pdf"
     },
     {
       image: BlockchainBlitz,
       datetime: "24 Feb 2024",
       title: "Blockchain Blitz Workshop",
       action: "View event",
+      report: "/view/CodingContestReport.pdf"
     },
     {
       image: powerBI,
       datetime: "October, 2023",
       title: "Power BI Workshop and Hackathon",
       action: "View event",
+      report: "/view/CodingContestReport.pdf"
     },
     {
       image: CodingContest,
       datetime: "September, 2023",
       title: "Coding Contest Sept 2023",
       action: "View event",
+      report: "/view/CodingContestReport.pdf"
     },
     {
       image: threejs,
       datetime: "March, 2022",
       title: "Three JS Workshop",
       action: "View event",
+      report: "/view/CodingContestReport.pdf"
     },
     {
       image: codingcomp,
       datetime: "November, 2022",
       title: "Coding Contest Nov 2022",
       action: "View event",
+      report: "/view/CodingContestReport.pdf"
     },
     {
       image: flutterworkshop,
       datetime: "September 18, 2023 | 5:00 PM",
       title: "Flutter Workshop",
       action: "View event",
+      report: "/view/CodingContestReport.pdf"
     },
   ]);
 
@@ -126,6 +134,7 @@ function PastEvents() {
                 datetime={event.datetime}
                 title={event.title}
                 action={event.action}
+                link={event.report}
               />
             ))}
           </Carousel>
