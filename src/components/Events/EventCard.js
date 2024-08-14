@@ -9,7 +9,7 @@ function EventCard(props) {
           <h4>{props.title}</h4>
           <button className="action-btn">
             <a
-              href={props.registrationform}
+              href={props.link}
               target="_blank"
               rel="noopener noreferrer"
             >
