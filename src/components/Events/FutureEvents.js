@@ -2,25 +2,26 @@ import React, { useState } from "react";
 import "./Events.css";
 
 import EventCard from "./EventCard";
-import ComingSoon from "../../images/ComingSoon.png";
+// import ComingSoon from "../../images/ComingSoon.png";
 // import BlockchainBlitz from "../../images/events/BlockchainBlitz.png";
+import Finology from "../../images/events/Finology.png"
 
 function UpcomingEvents() {
   const [upcomingEvents] = useState([
-    {
-      image: ComingSoon,
-      datetime: "",
-      title: "",
-      action: "Coming soon",
-      registrationform: ""
-    },
     // {
-    //   image: BlockchainBlitz,
-    //   datetime: "24 Feb 2024",
-    //   title: "Blockchain Blitz Workshop",
-    //   action: "Register",
-    //   registrationform: "https://forms.gle/L1X9ByWhNwGPuxB7A",
+    //   image: ComingSoon,
+    //   datetime: "",
+    //   title: "",
+    //   action: "Coming soon",
+    //   registrationform: ""
     // },
+    {
+      image: Finology,
+      datetime: "This Month",
+      title: "Finology",
+      action: "Coming Soon",
+      registrationform: "",
+    },
   ]);
 
   return (

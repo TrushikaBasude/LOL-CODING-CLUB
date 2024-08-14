@@ -9,11 +9,12 @@ function EventContainer() {
     <div className="event-container">
       <div className="event-info">
         <h1>UPCOMING EVENT</h1>
-        <h1>Finology Seminar</h1>
+        <h2>Finology Seminar</h2>
+        <p>Start smart: Grasp the basics of Finance</p>
         <p>Dive into the world of Finance</p>
+        <p>Coming soon this Month</p>
         <p>Stay tuned for more updates!</p>
-        {/* <p>SATURDAY, 24th FEB 2023</p>
-        <p>Register to Participate!</p> */}
+        {/* <p>Register to Participate!</p> */}
 
         {/* template
         <h1>UPCOMING EVENT</h1>

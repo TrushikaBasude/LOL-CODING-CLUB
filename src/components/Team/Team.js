@@ -37,24 +37,24 @@ import ShrutiPawar from "../../images/CommitteeMembers2023to2024/ShrutiPawar.jpe
 import ArpitaBaraskar from "../../images/CommitteeMembers2023to2024/ArpitaBaraskar.jpg";
 
 import KetakiBidkar from "../../images/CommitteeMembers2024to2025/KetakiBidkar.png";
-import ShubhamBayas from "../../images/CommitteeMembers2024to2025/ShubhamBayas.jpeg";
-import NikhilkumarJain from "../../images/CommitteeMembers2024to2025/NikhilkumarJain.jpeg";
-import YogeshKulkarni from "../../images/CommitteeMembers2024to2025/YogeshKulkarni.jpeg";
-import ChaviMaru from "../../images/CommitteeMembers2024to2025/ChaviMaru.jpeg";
-import AdityaDhepe from "../../images/CommitteeMembers2024to2025/AdityaDhepe.jpeg";
-import MaheshMhanta from "../../images/CommitteeMembers2024to2025/MaheshMhanta.jpeg";
-import ABPeerampalli from "../../images/CommitteeMembers2024to2025/A.B.Peerampalli.jpeg";
-import IrfanShaikh from "../../images/CommitteeMembers2024to2025/IrfanShaikh.jpeg";
-import LakshJain from "../../images/CommitteeMembers2024to2025/LakshJain.jpeg";
-import KomalKalshetti from "../../images/CommitteeMembers2024to2025/KomalKalshetti.jpeg";
-import PriyankaSundalam from "../../images/CommitteeMembers2024to2025/PriyankaSundalam.jpeg";
-import SanikaChougule from "../../images/CommitteeMembers2024to2025/SanikaChougule.jpeg";
-import PriyankaHotkar from "../../images/CommitteeMembers2024to2025/PriyankaHotkar.jpeg";
-import SanjanaMutkiri from "../../images/CommitteeMembers2024to2025/SanjanaMutkiri.jpeg";
-import ArihantGundale from "../../images/CommitteeMembers2024to2025/ArihantGundale.jpeg";
-import PranavJinturkar from "../../images/CommitteeMembers2024to2025/PranavJintorkar.jpeg";
-import ParmitaPatre from "../../images/CommitteeMembers2024to2025/ParmitaPatre.jpeg";
-import GauravKulkarni from "../../images/CommitteeMembers2024to2025/GauravKulkarni.jpg";
+import ShubhamBayas from "../../images/CommitteeMembers2024to2025/ShubhamBayas.png";
+import NikhilkumarJain from "../../images/CommitteeMembers2024to2025/NikhilkumarJain.png";
+import YogeshKulkarni from "../../images/CommitteeMembers2024to2025/YogeshKulkarni.png";
+import ChaviMaru from "../../images/CommitteeMembers2024to2025/ChaviMaru.png";
+import AdityaDhepe from "../../images/CommitteeMembers2024to2025/AdityaDhepe.png";
+import MaheshMhanta from "../../images/CommitteeMembers2024to2025/MaheshMhanta.png";
+import ABPeerampalli from "../../images/CommitteeMembers2024to2025/A.B.Peerampalli.png";
+import IrfanShaikh from "../../images/CommitteeMembers2024to2025/IrfanShaikh.png";
+import LakshJain from "../../images/CommitteeMembers2024to2025/LakshJain.png";
+import KomalKalshetti from "../../images/CommitteeMembers2024to2025/KomalKalshetti.png";
+import PriyankaSundalam from "../../images/CommitteeMembers2024to2025/PriyankaSundalam.png";
+import SanikaChougule from "../../images/CommitteeMembers2024to2025/SanikaChougule.png";
+import PriyankaHotkar from "../../images/CommitteeMembers2024to2025/PriyankaHotkar.png";
+import SanjanaMutkiri from "../../images/CommitteeMembers2024to2025/SanjanaMutkiri.png";
+import ArihantGundale from "../../images/CommitteeMembers2024to2025/ArihantGundale.png";
+import PranavJinturkar from "../../images/CommitteeMembers2024to2025/PranavJintorkar.png";
+import ParmitaPatre from "../../images/CommitteeMembers2024to2025/ParmitaPatre.png";
+import GauravKulkarni from "../../images/CommitteeMembers2024to2025/GauravKulkarni.png";
 
 function Team() {
   const [FoundingMembers] = useState([
@@ -386,7 +386,7 @@ function Team() {
       name: "Sanika Chougule",
       designation: "Student Coordinator",
       image: SanikaChougule,
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/sanikachougule",
     },
     {
       name: "Arihant Gundale",

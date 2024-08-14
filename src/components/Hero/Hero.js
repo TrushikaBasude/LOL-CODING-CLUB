@@ -27,7 +27,7 @@ function Hero() {
 
           <div className="register-btn" data-cursor-text="Join Us!">
             <a
-              href="https://forms.gle/PBo1u1qu6TPc3DQ87"
+              href="https://forms.gle/Fc5ozNBsBTWzeQYKA"
               target="_blank"
               rel="noopener noreferrer"
             >
