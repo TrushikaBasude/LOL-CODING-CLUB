@@ -10,31 +10,39 @@ import powerBI from "../../images/events/LOLPowerBIWorkshop.png";
 import BlockchainBlitz from "../../images/events/BlockchainBlitz.png";
 import GitGitHub from "../../images/events/GitGitHubWorkshop.jpg";
 import CodingContestJuly27 from "../../images/events/CodingContestJuly27.jpg"
+import GraphicsDesignCompetition from "../../images/events/Graphics Design Competition Poster.jpg"
 
 import EventCard from "./EventCard";
 
 function PastEvents() {
   const [upcomingEvents] = useState([
     {
-      image: CodingContestJuly27,
+      image: GraphicsDesignCompetition,
       datetime: "27 July 2024",
-      title: "Coding Contest July 27",
+      title: "Graphics Design Competition",
       action: "View event",
       report: "/view/CodingContestReport.pdf"
+    },
+    {
+      image: CodingContestJuly27,
+      datetime: "27 July 2024",
+      title: "Coding Contest July 24",
+      action: "View event",
+      report: "/view/CodingContestReportJuly24.pdf"
     },
     {
       image: GitGitHub,
       datetime: "18 July 2024",
       title: "Git & GitHub Workshop",
       action: "View event",
-      report: "/view/CodingContestReport.pdf"
+      report: "/view/GitAndGitHubReport.pdf"
     },
     {
       image: BlockchainBlitz,
       datetime: "24 Feb 2024",
       title: "Blockchain Blitz Workshop",
       action: "View event",
-      report: "/view/CodingContestReport.pdf"
+      report: "/view/HACKDIDReport.pdf"
     },
     {
       image: powerBI,
@@ -48,7 +56,7 @@ function PastEvents() {
       datetime: "September, 2023",
       title: "Coding Contest Sept 2023",
       action: "View event",
-      report: "/view/CodingContestReport.pdf"
+      report: "/view/CodingContestReport2023.pdf"
     },
     {
       image: threejs,

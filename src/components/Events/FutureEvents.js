@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./Events.css";
 
-import EventCard from "./EventCard";
+import EventVideoCard from "./EventVideoCard";
 // import ComingSoon from "../../images/ComingSoon.png";
 // import BlockchainBlitz from "../../images/events/BlockchainBlitz.png";
-import Finology from "../../images/events/Finology.png"
+// import Finology from "../../images/events/FinologyFlyer.png"
+import MonthlyCodingContestVideo from "../../images/events/MonthlyCodingContestVideo.mp4";
 
 function UpcomingEvents() {
   const [upcomingEvents] = useState([
@@ -16,11 +17,12 @@ function UpcomingEvents() {
     //   registrationform: ""
     // },
     {
-      image: Finology,
-      datetime: "This Month",
-      title: "Finology",
-      action: "Coming Soon",
-      registrationform: "",
+      video: MonthlyCodingContestVideo,
+      // image: Finology,
+      datetime: "14th September 2024",
+      title: "Monthly Coding Contest",
+      action: "Register Now",
+      registrationform: "https://www.linkedin.com/posts/lol-coding-club_exciting-announcement-lol-coding-club-activity-7239921094382567425-G67-?utm_source=share&utm_medium=member_desktop",
     },
   ]);
 
@@ -40,9 +42,10 @@ function UpcomingEvents() {
 
         <div className="events-card-container">
           {upcomingEvents.map((event) => (
-            <EventCard
+            <EventVideoCard
               key={event.date}
-              image={event.image}
+              video = {event.video}
+              // image={event.image}
               datetime={event.datetime}
               title={event.title}
               action={event.action}

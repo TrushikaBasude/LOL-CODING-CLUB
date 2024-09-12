@@ -197,3 +197,36 @@
 /* Responsiveness - End */
 
 /* ============================================ EVENTS - END ============================================ */
+
+/* ============================================ EVENTS - START ============================================ */
+
+.events-content .events-card-container .card video {
+  width: 20vw;
+  height: auto;
+  margin: 0 auto 3vmin auto;
+  object-fit: cover;
+}
+
+/* Carousel */
+
+.caraousel .card video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsiveness - Start */
+
+@media only screen and (max-width: 700px) {
+  .events-content .events-card-container .card video {
+    width: 68vw;
+  }
+
+  .caraousel .card video {
+    width: 80vw;
+  }
+}
+
+/* Responsiveness - End */
+
+/* ============================================ EVENTS - END ============================================ */

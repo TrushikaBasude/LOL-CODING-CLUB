@@ -12,9 +12,8 @@ function EventContainer() {
         <h2>Finology Seminar</h2>
         <p>Start smart: Grasp the basics of Finance</p>
         <p>Dive into the world of Finance</p>
-        <p>Coming soon this Month</p>
-        <p>Stay tuned for more updates!</p>
-        {/* <p>Register to Participate!</p> */}
+        <p>SATURDAY, 26th AUGUST 2024</p>
+        <p>Register to Participate!</p>
 
         {/* template
         <h1>UPCOMING EVENT</h1>
@@ -25,15 +24,15 @@ function EventContainer() {
         <p>Register to Participate!</p> */}
 
       </div>
-      {/* <a
+      <a
         className="register-btn"
-        href="https://forms.gle/L1X9ByWhNwGPuxB7A"
+        href="https://forms.gle/D62Q1pTJYQ2Q56NM8"
         target="_black"
         data-cursor-text="Register Now"
         data-cursor
       >
         Register Now
-      </a> */}
+      </a>
     </div>
   );
 }
