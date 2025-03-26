@@ -48,6 +48,7 @@ function Header() {
         </a>
 
         <Link to="/alumniconnect">Alumni Connect</Link>
+        {/* <Link to="/alumniconnect">Alumni Connect</Link> */}
       </div>
 
       <TemporaryDrawer />

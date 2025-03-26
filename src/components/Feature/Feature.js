@@ -9,15 +9,16 @@ function EventContainer() {
     <div className="event-container">
       <div className="event-info">
         <h1>UPCOMING EVENT</h1>
-        <h2>Finology Seminar</h2>
-        <p>Start smart: Grasp the basics of Finance</p>
-        <p>Dive into the world of Finance</p>
-        <p>SATURDAY, 26th AUGUST 2024</p>
+        <h2>UI/UX Unleashed</h2>
+        {/* <p>Start smart: Grasp the basics of Finance</p> */}
+        <p>Dive into the world of Design</p>
+        <p>Design Sleek Website and App working Prototypes</p>
+        <p>WEDNESDAY, 23th SEPT 2024</p>
         <p>Register to Participate!</p>
 
-        {/* template
-        <h1>UPCOMING EVENT</h1>
-        <h2>Blockchain Blitz Workshop</h2>
+        {/* template */}
+        {/* <h1>Comming Soon</h1> */}
+        {/* <h2>Blockchain Blitz Workshop</h2>
         <p>Hands on Session on Blockchain</p>
         <p>Remote Center Hall, WIT Solapur</p>
         <p>SATURDAY, 24th FEB 2023</p>
@@ -26,13 +27,22 @@ function EventContainer() {
       </div>
       <a
         className="register-btn"
-        href="https://forms.gle/D62Q1pTJYQ2Q56NM8"
+        href="https://forms.gle/iv5th4hikbkUrhJx9"
         target="_black"
         data-cursor-text="Register Now"
         data-cursor
       >
         Register Now
       </a>
+      {/* <a
+        className="register-btn"
+        href="https://www.linkedin.com/company/lol-coding-club/posts/?feedView=all"
+        target="_black"
+        data-cursor-text="Stay Tuned"
+        data-cursor
+      >
+        Stay Tuned
+      </a> */}
     </div>
   );
 }
@@ -79,13 +89,13 @@ function ExploreContainer() {
       </div>
       <div className="follow-hashnode">
         <a
-          href="https://play.google.com/store/apps/details?id=io.annadate.lol_id"
+          href="https://github.com/Abhay-Shankur/LOL-Coding-Club-App/tree/main/apk"
           target="_blank"
           rel="noopener noreferrer"
         >
           {/* <i className="fa-brands fa-hashnode"></i> */}
           <i className="fa-brands fa-google-play" />
-          Download LOL ID app
+          Download LOL App
         </a>
       </div>
       <div className="socials">

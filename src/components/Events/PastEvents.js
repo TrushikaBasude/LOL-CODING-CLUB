@@ -11,17 +11,41 @@ import BlockchainBlitz from "../../images/events/BlockchainBlitz.png";
 import GitGitHub from "../../images/events/GitGitHubWorkshop.jpg";
 import CodingContestJuly27 from "../../images/events/CodingContestJuly27.jpg"
 import GraphicsDesignCompetition from "../../images/events/Graphics Design Competition Poster.jpg"
+import CodingContestSept14 from "../../images/events/Coding Contest September 14.jpg"
+import UIUXPoster from "../../images/events/UIUX Workshop.png"
+import aws_bootcamp_poster from '../../images/events/AWS_Bootcamp_Poster.jpg'
 
 import EventCard from "./EventCard";
 
 function PastEvents() {
   const [upcomingEvents] = useState([
     {
+      image: aws_bootcamp_poster,
+      datetime: "10 October 2024",
+      title: "AWS Bootcamp",
+      action: "View event",
+      report: "/view/AWS Bootcamp Report.pdf"
+    },
+    {
+      image: UIUXPoster,
+      datetime: "13 September 2024",
+      title: "UI/UX Workshop",
+      action: "View event",
+      report: "/view/UIUX_REPORT.pdf"
+    },
+    {
+      image: CodingContestSept14,
+      datetime: "14 September 2024",
+      title: "Monthly Coding Contest",
+      action: "View event",
+      report: "/view/CodingContestSept14.pdf"
+    },
+    {
       image: GraphicsDesignCompetition,
       datetime: "27 July 2024",
       title: "Graphics Design Competition",
       action: "View event",
-      report: "/view/CodingContestReport.pdf"
+      report: "/view/GraphicDesignReport.pdf"
     },
     {
       image: CodingContestJuly27,
@@ -49,7 +73,7 @@ function PastEvents() {
       datetime: "October, 2023",
       title: "Power BI Workshop and Hackathon",
       action: "View event",
-      report: "/view/CodingContestReport.pdf"
+      report: "/view/Power BI Workshop & Hackathon Report.pdf"
     },
     {
       image: CodingContest,
@@ -63,21 +87,21 @@ function PastEvents() {
       datetime: "March, 2022",
       title: "Three JS Workshop",
       action: "View event",
-      report: "/view/CodingContestReport.pdf"
+      report: "/view/ThreeJs Report.pdf"
     },
     {
       image: codingcomp,
       datetime: "November, 2022",
       title: "Coding Contest Nov 2022",
       action: "View event",
-      report: "/view/CodingContestReport.pdf"
+      report: "/view/Coding Contest Nov 22.pdf"
     },
     {
       image: flutterworkshop,
       datetime: "September 18, 2023 | 5:00 PM",
       title: "Flutter Workshop",
       action: "View event",
-      report: "/view/CodingContestReport.pdf"
+      report: "/view/Flutter Report.pdf"
     },
   ]);
 
