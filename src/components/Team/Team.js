@@ -436,6 +436,24 @@ function Team() {
 
         <details open>
           <summary className="section-heading">
+            <span>LOL CODING CLUB COMMITTEE 2025-26</span>
+          </summary>
+
+          <div className="profile-card-container">
+            {CommitteeMembers2024to2025.map((member, index) => (
+              <ProfileCard
+                key={index}
+                image={member.image}
+                name={member.name}
+                designation={member.designation}
+                linkedin={member.linkedin}
+              />
+            ))}
+          </div>
+        </details>
+
+        <details>
+          <summary className="section-heading">
             <span>LOL CODING CLUB COMMITTEE 2024-25</span>
           </summary>
 

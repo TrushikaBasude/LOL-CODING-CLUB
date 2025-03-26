@@ -1,31 +1,32 @@
 import React, { useState } from "react";
 import "./Events.css";
 
-// import EventVideoCard from "./EventVideoCard";
+import EventVideoCard from "./EventVideoCard";
 import EventCard from "./EventCard";
 import ComingSoon from "../../images/ComingSoon.png";
 // import BlockchainBlitz from "../../images/events/BlockchainBlitz.png";
 // import Finology from "../../images/events/FinologyFlyer.png"
-// import MonthlyCodingContestVideo from "../../images/events/MonthlyCodingContestVideo.mp4";
+import MonthlyCodingContestVideo from "../../images/events/MonthlyCodingContestVideo.mp4";
 import UiUxWorkshop from "../../images/events/UIUX Workshop.png"
 
 function UpcomingEvents() {
   const [upcomingEvents] = useState([
-    {
-      image: ComingSoon,
-      datetime: "",
-      title: "",
-      action: "Coming soon",
-      registrationform: ""
-    },
     // {
-    //   video: MonthlyCodingContestVideo,
-    //   // image: Finology,
-    //   datetime: "14th September 2024",
-    //   title: "Monthly Coding Contest",
-    //   action: "Register Now",
-    //   registrationform: "https://www.linkedin.com/posts/lol-coding-club_exciting-announcement-lol-coding-club-activity-7239921094382567425-G67-?utm_source=share&utm_medium=member_desktop",
+    //   image: ComingSoon,
+    //   datetime: "",
+    //   title: "",
+    //   action: "Coming soon",
+    //   registrationform: ""
     // },
+
+    {
+      video: MonthlyCodingContestVideo,
+      // image: Finology,
+      datetime: "14th September 2024",
+      title: "Monthly Coding Contest",
+      action: "Register Now",
+      registrationform: "https://www.linkedin.com/posts/lol-coding-club_exciting-announcement-lol-coding-club-activity-7239921094382567425-G67-?utm_source=share&utm_medium=member_desktop",
+    },
     // {
     //     image: UiUxWorkshop,
     //     // image: Finology,
@@ -50,20 +51,20 @@ function UpcomingEvents() {
           </h3>
         </div>
 
-        {/* <div className="events-card-container">
+        <div className="events-card-container">
           {upcomingEvents.map((event) => (
             <EventVideoCard
               key={event.date}
               video = {event.video}
-              // image={event.image}
+               image={event.image}
               datetime={event.datetime}
               title={event.title}
               action={event.action}
               link={event.registrationform}
             />
           ))}
-        </div> */}
-        <div className="events-card-container">
+        </div>
+        {/* <div className="events-card-container">
           {upcomingEvents.map((event) => (
             <EventCard
               key={event.date}
@@ -75,7 +76,7 @@ function UpcomingEvents() {
               link={event.registrationform}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </>
   );
