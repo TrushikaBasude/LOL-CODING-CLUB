@@ -14,11 +14,21 @@ import GraphicsDesignCompetition from "../../images/events/Graphics Design Compe
 import CodingContestSept14 from "../../images/events/Coding Contest September 14.jpg"
 import UIUXPoster from "../../images/events/UIUX Workshop.png"
 import aws_bootcamp_poster from '../../images/events/AWS_Bootcamp_Poster.jpg'
+import SkillsOverBuzzwordsPoster from "../../images/events/SkillsOverBuzzwordsPoster.png" 
 
 import EventCard from "./EventCard";
 
 function PastEvents() {
   const [upcomingEvents] = useState([
+     
+      {
+      image: SkillsOverBuzzwordsPoster,
+      datetime: "1 April 2025",
+      title: "Skills Over Buzzwords",
+      action: "View event",
+      report: "/view/SkillOverBuzzWordsReport.docx (2).pdf"
+    },
+   
     {
       image: aws_bootcamp_poster,
       datetime: "10 October 2024",

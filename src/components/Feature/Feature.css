@@ -12,7 +12,7 @@
   padding: 5vmin 0 10vmin 0;
 }
 
-.feature .event-container {
+.feature .event-container{
   height: 60vh;
   width: 55vw;
   display: flex;
@@ -27,13 +27,29 @@
 
 .feature .event-container .event-info h1 {
   margin: 4vmin 0;
-  font-size: 2.5vw;
+  font-size: clamp(1.5rem, 2.5vw, 3rem);
   color: var(--secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid var(--secondary);
+  width: 0;
+  animation: typingFast 1.8s steps(40, end) forwards, blinkCaret 0.5s step-end infinite;
+}
+
+/* Fast typewriter */
+@keyframes typingFast {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Blinking caret */
+@keyframes blinkCaret {
+  50% { border-color: transparent; }
 }
 
 .feature .event-container .event-info h2 {
   margin: 2vmin 0;
-  font-size: 2vw;
+  font-size: 1.6vw;
   color: var(--primary);
   font-weight: bolder;
 }

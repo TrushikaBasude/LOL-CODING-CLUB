@@ -5,7 +5,7 @@ import HeroRight from "../../images/HeroRight.png";
 
 function Hero() {
   return (
-    <>
+  <>
       <div id="home" className="hero">
         <div className="hero-left">
           <div
@@ -18,8 +18,8 @@ function Hero() {
 
           <h2 className="subtitle">CODING CLUB</h2>
           <h4 className="description">
-            LOL Coding Club is a vibrant and inclusive community built by
-            students and dedicated to students. At LOL Coding Club, learning is
+            LOL Coding Club is a vibrant and inclusive community built by the 
+            students,for the students. At LOL Coding Club, learning is
             not just a solitary pursuit; it's an exhilarating adventure with
             friends, mentors, and boundless possibilities.{" "}
             <span>Together, let's Learn Out Loud!</span>
@@ -43,5 +43,4 @@ function Hero() {
     </>
   );
 }
-
 export default Hero;

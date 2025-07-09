@@ -8,13 +8,14 @@ function EventContainer() {
   return (
     <div className="event-container">
       <div className="event-info">
-        <h1>UPCOMING EVENT</h1>
-        <h2>UI/UX Unleashed</h2>
+        <h1>What's Cooking at LOL?</h1>
+        <h2> Unlock Your Coding Journey!</h2>
         {/* <p>Start smart: Grasp the basics of Finance</p> */}
-        <p>Dive into the world of Design</p>
-        <p>Design Sleek Website and App working Prototypes</p>
-        <p>WEDNESDAY, 23th SEPT 2024</p>
-        <p>Register to Participate!</p>
+        <p>🎓 Learn. Build. Grow. </p>
+      
+        <p>🚀 Launchpad for your ideas</p>
+        <p>🌐 Network with tech-savvy peers</p>
+         <p>🔥 Exclusive coding workshops & hackathons</p>
 
         {/* template */}
         {/* <h1>Comming Soon</h1> */}
@@ -27,9 +28,9 @@ function EventContainer() {
       </div>
       <a
         className="register-btn"
-        href="https://forms.gle/iv5th4hikbkUrhJx9"
+        href=" forms.gle/iFCCPykmFLD3UdNS7"
         target="_black"
-        data-cursor-text="Register Now"
+        data-cursor-text="Lets Join!!"
         data-cursor
       >
         Register Now

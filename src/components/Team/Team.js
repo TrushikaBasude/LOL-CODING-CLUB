@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ProfileCard from "./ProfileCard";
 import "./Team.css";
-
+//images of founder imported//
 import AkshitaJoshi from "../../images/FoundingMembers/AkshitaJoshi.jpg";
 import SanyamRawaneJain from "../../images/FoundingMembers/SanyamRawaneJain.jpg";
 import VarunLohade from "../../images/FoundingMembers/VarunLohade.jpg";
@@ -11,7 +11,7 @@ import DurgeshKudalkar from "../../images/FoundingMembers/DurgeshKudalkar.jpg";
 import RajasDaryapurkar from "../../images/FoundingMembers/RajasDaryapurkar.jpg";
 import PushkarKonasirasgi from "../../images/FoundingMembers/PushkarKonasirasgi.JPG";
 import MitaliLade from "../../images/FoundingMembers/MitaliLade.jpg";
-
+//23-24 all committee members images imported//
 import ChinmayAnnadate from "../../images/CommitteeMembers2023to2024/ChinmayAnnadate.jpg";
 import LaxmiKurapati from "../../images/CommitteeMembers2023to2024/LaxmiKurapati.jpg";
 import VivekGogi from "../../images/CommitteeMembers2023to2024/VivekGogi.jpg";
@@ -35,7 +35,7 @@ import AkashPawar from "../../images/CommitteeMembers2023to2024/AkashPawar.jpg";
 import TrushikaBasude from "../../images/CommitteeMembers2023to2024/TrushikaBasude.jpg";
 import ShrutiPawar from "../../images/CommitteeMembers2023to2024/ShrutiPawar.jpeg";
 import ArpitaBaraskar from "../../images/CommitteeMembers2023to2024/ArpitaBaraskar.jpg";
-
+//24-25 new committee members images imported//
 import KetakiBidkar from "../../images/CommitteeMembers2024to2025/KetakiBidkar.png";
 import ShubhamBayas from "../../images/CommitteeMembers2024to2025/ShubhamBayas.png";
 import NikhilkumarJain from "../../images/CommitteeMembers2024to2025/NikhilkumarJain.png";
@@ -55,6 +55,18 @@ import ArihantGundale from "../../images/CommitteeMembers2024to2025/ArihantGunda
 import PranavJinturkar from "../../images/CommitteeMembers2024to2025/PranavJintorkar.png";
 import ParmitaPatre from "../../images/CommitteeMembers2024to2025/ParmitaPatre.png";
 import GauravKulkarni from "../../images/CommitteeMembers2024to2025/GauravKulkarni.png";
+//2025-26 new committee members images imported//
+ import ArchitaYadav from "../../images/CommitteeMembers2025to2026/ArchitaYadav.jpg";
+ import SachinPangal from "../../images/CommitteeMembers2025to2026/SachinPangal.jpg";
+ import RushanShaikh from "../../images/CommitteeMembers2025to2026/RushanShaikh.jpg";
+ import HimanshiNagori from "../../images/CommitteeMembers2025to2026/HimanshiNagori.jpg";
+ import PriyalTyaral from "../../images/CommitteeMembers2025to2026/PriyalTyaral.jpg";
+import MonikaGidwani from "../../images/CommitteeMembers2025to2026/MonikaGidwani.png";
+ import SuhaniJain from "../../images/CommitteeMembers2025to2026/SuhaniJain.png";
+import SanjanaSurpurkar from "../../images/CommitteeMembers2025to2026/SanjanaSurpurkar.jpg";
+ import YesshaBapna from "../../images/CommitteeMembers2025to2026/YesshaBapna.png";
+ import RonakJain from "../../images/CommitteeMembers2025to2026/RonakJain.jpg";
+ import DiyaLodha from "../../images/CommitteeMembers2025to2026/DiyaLodha.png";
 
 function Team() {
   const [FoundingMembers] = useState([
@@ -100,6 +112,7 @@ function Team() {
       image: RajasDaryapurkar,
       linkedin: "https://www.linkedin.com/in/durgesh-kudalkar-7897571aa/",
     },
+
     {
       name: "Pushkar Konasirasgi",
       designation: "Director",
@@ -420,6 +433,115 @@ function Team() {
     },
   ]);
 
+     const [CommitteeMembers2025to2026] = useState([
+    {
+      name: "Aditya Dhepe",
+      designation: "President",
+      image: AdityaDhepe,
+      linkedin: "https://www.linkedin.com/in/aditya-dhepe-35067a259",
+    },
+    {
+      name: "Jahnavi Jain",
+      designation: "Vice President",
+      image: JahnaviJain,
+      linkedin: "https://www.linkedin.com/in/jahnavi-jain-027681259",
+    },
+    {
+      name: "Chavi Maru",
+      designation: "Secretary",
+      image: ChaviMaru,
+      linkedin: "https://www.linkedin.com/in/nikhilkumar-jain2411",
+    },
+    {
+      name: "Arpita Baraskar",
+      designation: "Joint Secretary ",
+      image: ArpitaBaraskar,
+      linkedin: "https://www.linkedin.com/in/arpita-baraskar-966829259",
+    },
+    {
+      name: "Om Jain",
+      designation: "Treasurer",
+      image: OmJain,
+      linkedin: "https://www.linkedin.com/in/om-jain-67a926258",
+    },
+    {
+      name: "Trushika Basude",
+      designation: "Social Media Head",
+      image: TrushikaBasude,
+      linkedin: "https://www.linkedin.com/in/trushika-basude-230491261",
+    },
+      {
+      name: "Himanshi Nagori",
+      designation: "Design Head",
+      image: HimanshiNagori,
+      linkedin: "https://www.linkedin.com/in/himanshinagori/",
+    },
+    {
+      name: "Archit Yadav",
+      designation: "Technical Head",
+      image: ArchitaYadav,
+      linkedin: "https://www.linkedin.com/in/archita-yadav-948907259",
+    },
+    {
+      name: "Sachin Pangal",
+      designation: "Technical Director",
+      image: SachinPangal,
+      linkedin: "https://tinyurl.com/sxsmjrt5",
+    },
+    {
+      name: "Rushan Shaikh",
+      designation: "Technical Director",
+      image: RushanShaikh,
+      linkedin: "https://www.linkedin.com/in/rushan-shaikh-150348259",
+    },
+
+    {
+      name: "Sanjana Surpurkar",
+      designation: "Director",
+      image: SanjanaSurpurkar,
+      linkedin: "http://www.linkedin.com/in/sanjana-surpurkar",
+    },
+    {
+      name: "Yessha Bapna",
+      designation: "Director",
+      image: YesshaBapna,
+      linkedin: "https://www.linkedin.com/in/yessha-bapna-704208286/",
+    },
+    {
+      name: "Ronak Jain",
+      designation: "Director",
+      image: RonakJain,
+      linkedin: "https://lnk.ink/EFAHT",
+    },
+  
+    {
+      name: "PriyalTyaral",
+      designation: "Director",
+      image: PriyalTyaral,
+      linkedin: "http://www.linkedin.com/in/priyal-tyaral",
+    },
+    {
+      name:"Monika Gidwani",
+      designation: "Director",
+      image: MonikaGidwani,
+      linkedin: "https://www.linkedin.com/in/monika-gidwani-aa28b534a",
+    },
+    {
+      name: "Suhani Jain",
+      designation: "Student Coordinator",
+      image: SuhaniJain,
+      linkedin: "https://www.linkedin.com/in/suhani-jain-343429318",
+    },
+    {
+      name: "Diya Lodha",
+      designation: "Student Coordinator",
+      image: DiyaLodha,
+      linkedin: "http://www.linkedin.com/in/diyalodha",
+    },
+    
+  ]);
+
+
   return (
     <div className="teams">
       <h1 className="teams-heading">Teams</h1>
@@ -434,13 +556,13 @@ function Team() {
       <div id="team" className="teams-content">
         {/* <details open> */}
 
-        <details open>
+        <details>
           <summary className="section-heading">
             <span>LOL CODING CLUB COMMITTEE 2025-26</span>
           </summary>
 
           <div className="profile-card-container">
-            {CommitteeMembers2024to2025.map((member, index) => (
+            {CommitteeMembers2025to2026.map((member, index) => (
               <ProfileCard
                 key={index}
                 image={member.image}
@@ -451,6 +573,7 @@ function Team() {
             ))}
           </div>
         </details>
+
 
         <details>
           <summary className="section-heading">
@@ -510,5 +633,4 @@ function Team() {
     </div>
   );
 }
-
 export default Team;

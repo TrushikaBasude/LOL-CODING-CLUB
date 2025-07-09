@@ -30,7 +30,7 @@ function Overview() {
 
         <div className="overview-container-bottom">
           <div className="overview-container-bottom-left">
-            <h2>What is LOL?</h2>
+            <h2>What is LOL Club?</h2>
             <p data-aos="zoom-in" data-aos-duration="2500">
               LOL Coding Club is a vibrant and inclusive community built by
               students and dedicated to students. As the name suggests, we
